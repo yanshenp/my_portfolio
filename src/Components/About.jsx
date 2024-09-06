@@ -16,27 +16,37 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/blue-sea.png";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "blue sea background";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  `I graduated with a major in Biotechnology, where I developed a strong foundation in genetics and chemistry. \n\
+  During my undergraduate studies, I had the opportunity to gain hands-on experience in the agricultural field, \n\
+  which broadened my understanding of practical applications in science. After completing my degree, \n\
+  I transitioned into a role as a Technical Sales Executive at an oleo chemical company. In this position, \n\ 
+  I was responsible for bridging the gap between technical product specifications and customer needs. \n\
+  Realizing the growing importance of data in driving business decisions, I then decided to further my education by \n\
+  pursuing a Master of Science in Data Science and Business Analytics. This program equipped me with advanced skills in data analysis, machine learning, and business strategy. \n\
+  I have learned to leverage data to provide actionable insights and solve complex problems, which I believe is crucial in today’s data-driven world. \n\
+  Combining my background in science, technical sales, and data science, I bring a unique perspective and a versatile skill set to the table. \n\ 
+  I am particularly passionate about using data to make informed decisions that can drive business growth and innovation. \n\
+  I am excited about the opportunity to apply my skills and experiences to contribute to your team.`;
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Data Analysis",
+  "Machine Learning",
+  "Cloud Computing",
+  "Data Visualization",
+  "NLP",
+  "Statistics",
 ];
 
 /**
@@ -45,7 +55,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my data science and science experience, I continually look for solutions to solve complex problem.";
 
 const About = () => {
   return (
@@ -60,7 +70,7 @@ const About = () => {
           textAlign: "center",
         }}
       >
-        <h2>About Myself</h2>
+        <h2>About Me </h2>
         <p className="large">{description}</p>
         <hr />
         <ul
